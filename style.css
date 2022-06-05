@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    clear: both;
+}
+
+body{
+    background-color: #eed;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.container{
+    margin: 0 auto;
+    background-color: #e4f9f5;
+    max-width: 1000px;
+    padding: 20px;
+}
+
+.profile-image{
+    float: left;
+    width: 100px;
+    height: 110px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.header-bio{
+    float: left;
+    padding: 30px;
+    color: teal;
+    
+}
+
+.header-contact{
+    float: right;
+    padding: 30px;    
+}
+
+.header-contact a{
+    text-decoration: none;
+    color: teal;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color: tomato;
+}
+.clear-div{
+    clear: both;
+}
+
+hr{
+    border: 3px solid black;
+    margin: 20px auto;
+    width: 100%;
+    border-bottom: none;
+}
+
+/* start personal section */
+.content{
+
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+
+.right-div{
+    width: 70%;
+    float: left;
+}
+.common-hr{
+    border: 2px solid black;
+    border-bottom: none;
+    width: 100%;
+}
+/* Stop personal section */
+
+/* Start Education section */
+..content{
+
+}
+
+.right-left{
+    width: 50%;
+    float: left;
+}
+
+.right-right{
+    width: 50%;
+    float: left;
+}
+/* Stop Education section */
+
+/* Start footer section */
+.footer-section{
+    background-color: tomato;
+    text-align: center;
+    padding: 10px;
+}
+.footer-section a{
+    text-decoration: none;
+    margin: 20px;
+    color: white;
+}
+.footer-section p{
+    margin-top: 20px;
+    color: white;
+}
+
+.footer-section p:hover,a:hover{
+    color: blue;
+    text-decoration: underline overline;
+}
+
+/* Stop footer section */
